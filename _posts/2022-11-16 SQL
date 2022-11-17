@@ -1,0 +1,20 @@
+---
+title: "SQL"
+layout: post
+---
+
+SQL is one of the most widely used tools in the world of data analytics, for which I show below some of the syntaxes that I have used in queries in my previous work as well as in university projects that have required the SQL programming language.
+
+It should be noted that SQL is a tool that I have used to connect with other applications such as:
+- Knime
+- Power BI
+
+This fusion of tools makes more powerful the process of extracting data and transforming it into results that help decision making.
+
+
+{% highlight ruby %}
+select ename, length(ename), nvl(NULLIF(to_char(length(ename)), to_char(5)), 'length is 5') as result, sal from emp 
+where sal > 2000
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
