@@ -16,13 +16,13 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html", title: Portfolio, icon: home}
-  - {file: "README.md", title: Data Analytics, icon: address-card}
+  - {file: "index.html", title: "Portfolio", icon: home}
+  - {file: "README.md", title: "Data Analytics", icon: address-card}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:daniebm92@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/daniebm"}
-  - {title: LinkedIn, icon: Linkedin, url: "https://www.linkedin.com/in/daniel-burgos-1b768934/"}
+  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/daniel-burgos-1b768934/"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
